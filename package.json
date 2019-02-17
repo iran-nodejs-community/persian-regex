@@ -1,0 +1,24 @@
+{
+  "name": "persian-regex",
+  "version": "1.0.1",
+  "description": "validate persian inputs",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha **/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/nimahkh/persian-regex"
+  },
+  "keywords": [
+    "persian-regex",
+    "nodejs-persian-regex",
+    "persian-input-variables"
+  ],
+  "author": "nima habibkhoda",
+  "license": "WTFPL",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
