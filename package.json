@@ -1,6 +1,6 @@
 {
   "name": "persian-regex",
-  "version": "1.0.1",
+  "version": "1.1.1",
   "description": "validate persian inputs",
   "main": "index.js",
   "scripts": {
