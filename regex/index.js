@@ -15,7 +15,6 @@ class Regex {
         const regex = /^[+-]?\d+(\.\d+)?$/;
         const regexRul = new RegExp(regex);
         return regexRul.test(number)
-        //return !!number.match(regexRul);
     }
 
     /**
