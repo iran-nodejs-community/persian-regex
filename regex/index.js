@@ -12,9 +12,10 @@ class Regex {
      * this function is validating numbers
      */
     isNumber(number) {
-        const regex = /^[0-9]+$/;
+        const regex = /^[+-]?\d+(\.\d+)?$/;
         const regexRul = new RegExp(regex);
-        return !!number.match(regexRul);
+        return regexRul.test(number)
+        //return !!number.match(regexRul);
     }
 
     /**
